@@ -2,7 +2,7 @@
 
 // number of valid bracket sequences 
 // dp[n] = from i = 0 to n-1 ( dp[i] * dp[n-1-i] )
-// (nCn/2)*(1/n+1) 
+// (nCn/2)*(1/n+1)*k^n where k is number of types of brackets 
 
 #include <bits/stdc++.h>
 
