@@ -5,7 +5,7 @@
 // (nCn/2)*(1/n+1)*k^n where k is number of types of brackets 
 
 // if initially K backets are open that we have to close and n denotes remaining pair ,
-// Number of ways = ((k+1)/(n+k+1)) * (2*n+k)Ck
+// Number of ways = ((k+1)/(n+k+1)) * (2*n+k)Cn
 
 #include <bits/stdc++.h>
 
