@@ -4,6 +4,9 @@
 // dp[n] = from i = 0 to n-1 ( dp[i] * dp[n-1-i] )
 // (nCn/2)*(1/n+1)*k^n where k is number of types of brackets 
 
+// if initially K backets are open that we have to close and n denotes remaining pair ,
+// Number of ways = ((k+1)/(n+k+1)) * (2*n+k)Ck
+
 #include <bits/stdc++.h>
 
 using namespace std;
